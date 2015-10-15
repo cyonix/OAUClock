@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'OAUClock_Example', :exclusive => true do
+  pod "OAUClock", :path => "../"
+end
+
+target 'OAUClock_Tests', :exclusive => true do
+  pod "OAUClock", :path => "../"
+
+  
+end
