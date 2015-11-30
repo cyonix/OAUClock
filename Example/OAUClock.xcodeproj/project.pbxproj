@@ -42,7 +42,7 @@
 		3BD5E1F6C996A1C6EBF7DB28 /* Pods-OAUClock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAUClock_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OAUClock_Example/Pods-OAUClock_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4DA0342F47CA03C933C8D0B5 /* Pods_OAUClock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAUClock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD330C3A81CD9A0B053E107 /* OAUClock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OAUClock.podspec; path = ../OAUClock.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* OAUClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = OAUClock.app; path = OAUClock_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* OAUClock_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAUClock_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,7 +55,7 @@
 		6003F5A5195388D20070C39A /* OAUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAUViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* OAUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAUViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = OAUClock_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* OAUClock_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAUClock_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* OAUClock.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* OAUClock_Example.app */,
+				6003F5AE195388D20070C39A /* OAUClock_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			);
 			name = OAUClock_Example;
 			productName = OAUClock;
-			productReference = 6003F58A195388D20070C39A /* OAUClock.app */;
+			productReference = 6003F58A195388D20070C39A /* OAUClock_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* OAUClock_Tests */ = {
@@ -234,7 +234,7 @@
 			);
 			name = OAUClock_Tests;
 			productName = OAUClockTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* OAUClock_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

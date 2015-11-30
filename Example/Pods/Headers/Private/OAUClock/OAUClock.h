@@ -10,26 +10,24 @@
 
 @interface OAUClock : UIView
 
-// Set/Get current hour
-@property (nonatomic) NSInteger hour;
+// Get current hour
+@property (nonatomic, readonly) NSInteger hour;
 
-// Set/Get current minute
-@property (nonatomic) NSInteger minute;
+// Get current minute
+@property (nonatomic, readonly) NSInteger minute;
 
-// Set/Get current seconds
-@property (nonatomic) NSInteger seconds;
+// Get current seconds
+@property (nonatomic, readonly) NSInteger seconds;
 
-// AM/PM (ante/post meridien)
+// Shows convenient AM/PM text
 @property (nonatomic) BOOL showMeridies;
 @property (nonatomic) UIColor *meridiesColor;
-@property (nonatomic, readonly) BOOL isAM;
 
-// Show numbers [1-12] at tick marks (hour positions)
-@property (nonatomic) BOOL showNumbers;
-@property (nonatomic) UIColor *numbersColor;
+// Use numbers [1-12] instead of prominent tick marks at hour positions
+@property (nonatomic) BOOL useNumbers;
 
 // Allows for clock to track the real time
-@property (nonatomic, getter=isRealTime) BOOL realtime;
+@property (nonatomic) BOOL isRealtime;
 
 // Color for the clock face
 @property (nonatomic) UIColor *faceColor;

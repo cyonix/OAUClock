@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OAUClock-OAUClock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OAUClock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OAUClock_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OAUClock_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2C5E8ED310600C80AECA5EBA7F4AA34B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>365C51EB759F055A69401B7D9422545A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8E487EECC83D1C4F1402F190BD2122B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EABD0A775474A7710A660F7D5083C67D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

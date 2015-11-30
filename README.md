@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/OAUClock.svg?style=flat)](http://cocoapods.org/pods/OAUClock)
 [![Platform](https://img.shields.io/cocoapods/p/OAUClock.svg?style=flat)](http://cocoapods.org/pods/OAUClock)
 
+![](clockscreenshot.png?raw=true "OAUClock screenshot")
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS 7.0
+* Xcode 7.0
+* ARC
 
 ## Installation
 
@@ -20,9 +25,36 @@ it, simply add the following line to your Podfile:
 pod "OAUClock"
 ```
 
-## Author
+## Configuration
 
-Austin Ugbeme, hello@waado.co
+1. Import "OAUClock.h" into desired view controller:
+	```objective-c
+	#import "OAUClock.h"
+	```
+
+2. Initialize the clock. Typically in your `viewDidLoad` method:
+	```objective-c
+	self.clock = [[OAUClock alloc] initWithFrame:CGRectMake(0, 0, 240, 240)];
+	[self.view addSubview:self.clock];
+	```
+
+2. Various configurations exist for OAUClock. Some example controls include:
+	**To set the current hour/minute/sec respectively**
+	```objective-c
+	self.clock.hour = 10;
+	self.clock.minute = 10;
+	self.clock.seconds = 30;
+	```
+
+	**To control the AM/PM text**
+	```objective-c
+	self.clock.showMeridies = YES;
+	self.clock.meridiesColor = [UIColor redColor];
+	```
+	**To allow clock track the devices' time**
+	```objective-c
+	self.clock.realTime = YES;
+	```
 
 ## License
 

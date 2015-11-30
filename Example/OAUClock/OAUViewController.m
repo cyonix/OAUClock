@@ -8,8 +8,10 @@
 
 #import "OAUViewController.h"
 
-@interface OAUViewController ()
+#import "OAUClock.h"
 
+@interface OAUViewController ()
+@property (nonatomic, weak) IBOutlet OAUClock *clock;
 @end
 
 @implementation OAUViewController
@@ -17,7 +19,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+//    self.clock.showMeridies = YES;
+//    self.clock.realtime = NO;
+//    self.clock.hour = 10;
+//    self.clock.minute = 10;
+//    self.clock.seconds = 30;
+//    self.clock.showGraduations = NO;
+//    self.clock.showMeridies = YES;
+//    self.clock.showNumbers = NO;
 }
 
 - (void)didReceiveMemoryWarning

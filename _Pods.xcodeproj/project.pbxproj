@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA389CFD80C04EE6082840E4D367C39 /* OAUClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB8F0DDBFCF7ED20F68BBCA2EB4815 /* OAUClock-dummy.m */; };
+		2185AEF069C9BB6712E0AFAE1C4A7383 /* Pods-OAUClock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA8E2B2C01C5001B87FCAF41725CD /* Pods-OAUClock_Example-dummy.m */; };
+		5E3399F66DD9D18D91F18EE6513AE271 /* Pods-OAUClock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6E4E7F605151C90EC9A84BF7ABC468 /* Pods-OAUClock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		998EECF70C19D1726CA60345341471EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A1C4A3F6F1AFCD6197D4E7FC95E5217E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		ABFB872DA64EC2BDA029DE79E6FFF339 /* OAUClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E8D9803F0701F5031975CC20BD965C /* OAUClock.m */; };
+		BEC24230ACAE9DCCC3E3AF2CC61C5FC9 /* Pods-OAUClock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B38C57005F168A90B34374198619397 /* Pods-OAUClock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90C820583858DEB3FACCA9962712B72 /* Pods-OAUClock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F35FCA9ED50F72C20C2A19AED1CD7A4 /* Pods-OAUClock_Tests-dummy.m */; };
+		CCA6CC5378F67B2C97E85D1BF1BEE0CA /* OAUClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C56D4B1355DD568EA6E1A449C88D14C /* OAUClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE1C7D5DB30756A5B4BD67A9F5AE4AD /* OAUClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5CFF443B7C2A75845D2623B5FA737F /* OAUClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D777E0B05B939188B7C8F62CE0C9F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F01E26056221953818C6D2BE8B19CD69 /* OAUClock.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BD40F3665A1A7752502BAC5CFD15C72 /* OAUClock.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A0E3901ED0C7A4DEB1D15FC042DA591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABD0A775474A7710A660F7D5083C67D;
+			remoteInfo = "OAUClock-OAUClock";
+		};
+		2F615B5F9C84DE835EB05BD1E7321A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5E8ED310600C80AECA5EBA7F4AA34B;
+			remoteInfo = OAUClock;
+		};
+		7BE267FAFED686D7E492DDA42ADEE2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5E8ED310600C80AECA5EBA7F4AA34B;
+			remoteInfo = OAUClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091A5E4EC0B48A05AFC251491342A527 /* OAUClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OAUClock.modulemap; sourceTree = "<group>"; };
+		14FA98E13D653BF7FB7380FB433CAD13 /* Pods_OAUClock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAUClock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F30BCF96ABA4296917C1A8D2BEB7793 /* Pods-OAUClock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OAUClock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE6CD96A09F3C4E9AE6D75B0DD27298 /* Pods-OAUClock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OAUClock_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		21B1F6F70CB579F3839157584336E696 /* Pods-OAUClock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OAUClock_Example.modulemap"; sourceTree = "<group>"; };
+		23758563FAE1F03217DFA7E97BDD4644 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238A31C7093EF7A5F3DDA3FE5639B2A5 /* Pods-OAUClock_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OAUClock_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		290E389FDA65D42F8277513B02364102 /* Pods-OAUClock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OAUClock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29995D244D0B68B89B291A26355E1059 /* OAUClock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAUClock-prefix.pch"; sourceTree = "<group>"; };
+		2C56D4B1355DD568EA6E1A449C88D14C /* OAUClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAUClock-umbrella.h"; sourceTree = "<group>"; };
+		37332B51780F3671385DE1B7462D6211 /* Pods-OAUClock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OAUClock_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F35FCA9ED50F72C20C2A19AED1CD7A4 /* Pods-OAUClock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OAUClock_Tests-dummy.m"; sourceTree = "<group>"; };
+		3FA034217165CB5B7DACEDE65278BA5B /* Pods-OAUClock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OAUClock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B38C57005F168A90B34374198619397 /* Pods-OAUClock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OAUClock_Example-umbrella.h"; sourceTree = "<group>"; };
+		6B9CA8E2B2C01C5001B87FCAF41725CD /* Pods-OAUClock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OAUClock_Example-dummy.m"; sourceTree = "<group>"; };
+		7384C49CD14A6B87034FDCC99DE8A5FF /* OAUClock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAUClock.xcconfig; sourceTree = "<group>"; };
+		74E8D9803F0701F5031975CC20BD965C /* OAUClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OAUClock.m; sourceTree = "<group>"; };
+		7567515BBD60AD34275640839F4EE79B /* Pods_OAUClock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAUClock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB8F0DDBFCF7ED20F68BBCA2EB4815 /* OAUClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAUClock-dummy.m"; sourceTree = "<group>"; };
+		7F5CFF443B7C2A75845D2623B5FA737F /* OAUClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OAUClock.h; sourceTree = "<group>"; };
+		835A97485BBD9A88CD28A51D0828115E /* Pods-OAUClock_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OAUClock_Example-resources.sh"; sourceTree = "<group>"; };
+		9BD40F3665A1A7752502BAC5CFD15C72 /* OAUClock.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAUClock.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6E4E7F605151C90EC9A84BF7ABC468 /* Pods-OAUClock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OAUClock_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A2FD767CDDB7C26424121D9A1A634593 /* Pods-OAUClock_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OAUClock_Tests-resources.sh"; sourceTree = "<group>"; };
+		B8D946F2FE193BBDE2D6619EE98C1CB7 /* Pods-OAUClock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OAUClock_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCF577F7CB0E9EB774C049266343CE1F /* Pods-OAUClock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OAUClock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE256EA524D32C0221E15BCAE3A73856 /* OAUClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAUClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31BB2296A1678F209BD1D4F20CB7E79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCD51A12071B0C899E480CE467B936B /* Pods-OAUClock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OAUClock_Tests.modulemap"; sourceTree = "<group>"; };
+		D00EE079F8794882052B9267B0F87857 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D147573B625C1301E5FE5AD8D314B538 /* Pods-OAUClock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OAUClock_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D530C325108BDA1B3C86560BE472CE6E /* Pods-OAUClock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OAUClock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104EFC2963FEAA92B8CD749550AF1E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D777E0B05B939188B7C8F62CE0C9F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EDBDFE498BA8FFDDA613B87677D3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4A3F6F1AFCD6197D4E7FC95E5217E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E24DF7EB1AC69C7A801A3ADF6058FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998EECF70C19D1726CA60345341471EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57C262F4112B8AEB95DEE0CDF976D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FC2A09976B7EEC0C99907CE9681235 /* Pods-OAUClock_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23758563FAE1F03217DFA7E97BDD4644 /* Info.plist */,
+				CDCD51A12071B0C899E480CE467B936B /* Pods-OAUClock_Tests.modulemap */,
+				290E389FDA65D42F8277513B02364102 /* Pods-OAUClock_Tests-acknowledgements.markdown */,
+				1F30BCF96ABA4296917C1A8D2BEB7793 /* Pods-OAUClock_Tests-acknowledgements.plist */,
+				3F35FCA9ED50F72C20C2A19AED1CD7A4 /* Pods-OAUClock_Tests-dummy.m */,
+				238A31C7093EF7A5F3DDA3FE5639B2A5 /* Pods-OAUClock_Tests-frameworks.sh */,
+				A2FD767CDDB7C26424121D9A1A634593 /* Pods-OAUClock_Tests-resources.sh */,
+				9D6E4E7F605151C90EC9A84BF7ABC468 /* Pods-OAUClock_Tests-umbrella.h */,
+				3FA034217165CB5B7DACEDE65278BA5B /* Pods-OAUClock_Tests.debug.xcconfig */,
+				1FE6CD96A09F3C4E9AE6D75B0DD27298 /* Pods-OAUClock_Tests.release.xcconfig */,
+			);
+			name = "Pods-OAUClock_Tests";
+			path = "Target Support Files/Pods-OAUClock_Tests";
+			sourceTree = "<group>";
+		};
+		1ACAA0B34C0A656C33E70E414C9B689A /* Pods-OAUClock_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D00EE079F8794882052B9267B0F87857 /* Info.plist */,
+				21B1F6F70CB579F3839157584336E696 /* Pods-OAUClock_Example.modulemap */,
+				BCF577F7CB0E9EB774C049266343CE1F /* Pods-OAUClock_Example-acknowledgements.markdown */,
+				D530C325108BDA1B3C86560BE472CE6E /* Pods-OAUClock_Example-acknowledgements.plist */,
+				6B9CA8E2B2C01C5001B87FCAF41725CD /* Pods-OAUClock_Example-dummy.m */,
+				37332B51780F3671385DE1B7462D6211 /* Pods-OAUClock_Example-frameworks.sh */,
+				835A97485BBD9A88CD28A51D0828115E /* Pods-OAUClock_Example-resources.sh */,
+				6B38C57005F168A90B34374198619397 /* Pods-OAUClock_Example-umbrella.h */,
+				D147573B625C1301E5FE5AD8D314B538 /* Pods-OAUClock_Example.debug.xcconfig */,
+				B8D946F2FE193BBDE2D6619EE98C1CB7 /* Pods-OAUClock_Example.release.xcconfig */,
+			);
+			name = "Pods-OAUClock_Example";
+			path = "Target Support Files/Pods-OAUClock_Example";
+			sourceTree = "<group>";
+		};
+		5940F627B7EE4E405A876034DC8A1717 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98CEC8219A5A0DAAFF5B8DFF4BC8B0DC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		5E580C3BB01BBEB1D5BC38B05529BF1E /* OAUClock */ = {
+			isa = PBXGroup;
+			children = (
+				5940F627B7EE4E405A876034DC8A1717 /* Pod */,
+				DFCB5A725110642C96CDBB2E902E3580 /* Support Files */,
+			);
+			name = OAUClock;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				D8D982F747508231850D0B352AD8B824 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD1AC85ED982FFB007B9EF75E448EA5A /* Products */,
+				9911D2210C7CE4E340ABCA6F1142F76D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98CEC8219A5A0DAAFF5B8DFF4BC8B0DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F5CFF443B7C2A75845D2623B5FA737F /* OAUClock.h */,
+				74E8D9803F0701F5031975CC20BD965C /* OAUClock.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9911D2210C7CE4E340ABCA6F1142F76D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ACAA0B34C0A656C33E70E414C9B689A /* Pods-OAUClock_Example */,
+				02FC2A09976B7EEC0C99907CE9681235 /* Pods-OAUClock_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8D982F747508231850D0B352AD8B824 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E580C3BB01BBEB1D5BC38B05529BF1E /* OAUClock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DFCB5A725110642C96CDBB2E902E3580 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31BB2296A1678F209BD1D4F20CB7E79 /* Info.plist */,
+				091A5E4EC0B48A05AFC251491342A527 /* OAUClock.modulemap */,
+				7384C49CD14A6B87034FDCC99DE8A5FF /* OAUClock.xcconfig */,
+				79EB8F0DDBFCF7ED20F68BBCA2EB4815 /* OAUClock-dummy.m */,
+				29995D244D0B68B89B291A26355E1059 /* OAUClock-prefix.pch */,
+				2C56D4B1355DD568EA6E1A449C88D14C /* OAUClock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OAUClock";
+			sourceTree = "<group>";
+		};
+		FD1AC85ED982FFB007B9EF75E448EA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD40F3665A1A7752502BAC5CFD15C72 /* OAUClock.bundle */,
+				BE256EA524D32C0221E15BCAE3A73856 /* OAUClock.framework */,
+				14FA98E13D653BF7FB7380FB433CAD13 /* Pods_OAUClock_Example.framework */,
+				7567515BBD60AD34275640839F4EE79B /* Pods_OAUClock_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C0CA9216F35253D73088A2AFB8E3BCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3399F66DD9D18D91F18EE6513AE271 /* Pods-OAUClock_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24230F13CCB6C414B90AE3AC6E35469D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC24230ACAE9DCCC3E3AF2CC61C5FC9 /* Pods-OAUClock_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A18DEFC53EF3F4E1267E897E19D3FD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA6CC5378F67B2C97E85D1BF1BEE0CA /* OAUClock-umbrella.h in Headers */,
+				CEE1C7D5DB30756A5B4BD67A9F5AE4AD /* OAUClock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C5E8ED310600C80AECA5EBA7F4AA34B /* OAUClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48CE8E7613AA982626C135BE00ED2B5 /* Build configuration list for PBXNativeTarget "OAUClock" */;
+			buildPhases = (
+				58ED0CE41CE035B4F2FDD23F4AAF89B9 /* Sources */,
+				91EDBDFE498BA8FFDDA613B87677D3D2 /* Frameworks */,
+				F2B0640E442BD5DD8DFC2558759F93E4 /* Resources */,
+				2A18DEFC53EF3F4E1267E897E19D3FD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8E772D25A64F473D6A81B3A79DF92D5 /* PBXTargetDependency */,
+			);
+			name = OAUClock;
+			productName = OAUClock;
+			productReference = BE256EA524D32C0221E15BCAE3A73856 /* OAUClock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		365C51EB759F055A69401B7D9422545A /* Pods-OAUClock_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58EE4A948258721A133C65FA2825238 /* Build configuration list for PBXNativeTarget "Pods-OAUClock_Example" */;
+			buildPhases = (
+				B2BFE9023FFF3FA93DC1EBB6290D7F6E /* Sources */,
+				104EFC2963FEAA92B8CD749550AF1E7D /* Frameworks */,
+				24230F13CCB6C414B90AE3AC6E35469D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B57D7789EF363AFA070BD3E5CC39CCC /* PBXTargetDependency */,
+			);
+			name = "Pods-OAUClock_Example";
+			productName = "Pods-OAUClock_Example";
+			productReference = 14FA98E13D653BF7FB7380FB433CAD13 /* Pods_OAUClock_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E487EECC83D1C4F1402F190BD2122B /* Pods-OAUClock_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087DA600D7616C55F4F0F3A62F266E4 /* Build configuration list for PBXNativeTarget "Pods-OAUClock_Tests" */;
+			buildPhases = (
+				82CB48D3BA301BC1F5C5DC41E90AF73D /* Sources */,
+				B1E24DF7EB1AC69C7A801A3ADF6058FB /* Frameworks */,
+				0C0CA9216F35253D73088A2AFB8E3BCA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D576FE9940D4ED86864AA7F6F689A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-OAUClock_Tests";
+			productName = "Pods-OAUClock_Tests";
+			productReference = 7567515BBD60AD34275640839F4EE79B /* Pods_OAUClock_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EABD0A775474A7710A660F7D5083C67D /* OAUClock-OAUClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7189DFED3168F40ED14EAD23AF9B117F /* Build configuration list for PBXNativeTarget "OAUClock-OAUClock" */;
+			buildPhases = (
+				2807CCE1AE49C670A2554576A90E60B9 /* Sources */,
+				E57C262F4112B8AEB95DEE0CDF976D4C /* Frameworks */,
+				03FE081EABAB28B1697DF1310A3B1DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OAUClock-OAUClock";
+			productName = "OAUClock-OAUClock";
+			productReference = 9BD40F3665A1A7752502BAC5CFD15C72 /* OAUClock.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD1AC85ED982FFB007B9EF75E448EA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5E8ED310600C80AECA5EBA7F4AA34B /* OAUClock */,
+				EABD0A775474A7710A660F7D5083C67D /* OAUClock-OAUClock */,
+				365C51EB759F055A69401B7D9422545A /* Pods-OAUClock_Example */,
+				A8E487EECC83D1C4F1402F190BD2122B /* Pods-OAUClock_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FE081EABAB28B1697DF1310A3B1DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B0640E442BD5DD8DFC2558759F93E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01E26056221953818C6D2BE8B19CD69 /* OAUClock.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2807CCE1AE49C670A2554576A90E60B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ED0CE41CE035B4F2FDD23F4AAF89B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA389CFD80C04EE6082840E4D367C39 /* OAUClock-dummy.m in Sources */,
+				ABFB872DA64EC2BDA029DE79E6FFF339 /* OAUClock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CB48D3BA301BC1F5C5DC41E90AF73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90C820583858DEB3FACCA9962712B72 /* Pods-OAUClock_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BFE9023FFF3FA93DC1EBB6290D7F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2185AEF069C9BB6712E0AFAE1C4A7383 /* Pods-OAUClock_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87D576FE9940D4ED86864AA7F6F689A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAUClock;
+			target = 2C5E8ED310600C80AECA5EBA7F4AA34B /* OAUClock */;
+			targetProxy = 2F615B5F9C84DE835EB05BD1E7321A61 /* PBXContainerItemProxy */;
+		};
+		9B57D7789EF363AFA070BD3E5CC39CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAUClock;
+			target = 2C5E8ED310600C80AECA5EBA7F4AA34B /* OAUClock */;
+			targetProxy = 7BE267FAFED686D7E492DDA42ADEE2F5 /* PBXContainerItemProxy */;
+		};
+		A8E772D25A64F473D6A81B3A79DF92D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OAUClock-OAUClock";
+			target = EABD0A775474A7710A660F7D5083C67D /* OAUClock-OAUClock */;
+			targetProxy = 0A0E3901ED0C7A4DEB1D15FC042DA591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0C04E502845E54BBC5D40DECA347A21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7384C49CD14A6B87034FDCC99DE8A5FF /* OAUClock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAUClock/OAUClock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAUClock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OAUClock/OAUClock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OAUClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BC8D345735EE21E1E66B66708B8504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D147573B625C1301E5FE5AD8D314B538 /* Pods-OAUClock_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OAUClock_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OAUClock_Example/Pods-OAUClock_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OAUClock_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4283368C64C52E27FC22114F03E6F516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA034217165CB5B7DACEDE65278BA5B /* Pods-OAUClock_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OAUClock_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OAUClock_Tests/Pods-OAUClock_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OAUClock_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72F7DB79B67DD51DAC4A771B61C8A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7384C49CD14A6B87034FDCC99DE8A5FF /* OAUClock.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OAUClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AF5293516054A0C50819F8894A123E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D946F2FE193BBDE2D6619EE98C1CB7 /* Pods-OAUClock_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OAUClock_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OAUClock_Example/Pods-OAUClock_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OAUClock_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3C9F052B2312E5428D59C6C3DFCA3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7384C49CD14A6B87034FDCC99DE8A5FF /* OAUClock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAUClock/OAUClock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAUClock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OAUClock/OAUClock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OAUClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA044905EFCB6C908A9D55514F23DC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE6CD96A09F3C4E9AE6D75B0DD27298 /* Pods-OAUClock_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OAUClock_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OAUClock_Tests/Pods-OAUClock_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OAUClock_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1C9FB8EC249A569F4D6377B2CEB43AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7384C49CD14A6B87034FDCC99DE8A5FF /* OAUClock.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OAUClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0087DA600D7616C55F4F0F3A62F266E4 /* Build configuration list for PBXNativeTarget "Pods-OAUClock_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4283368C64C52E27FC22114F03E6F516 /* Debug */,
+				DA044905EFCB6C908A9D55514F23DC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7189DFED3168F40ED14EAD23AF9B117F /* Build configuration list for PBXNativeTarget "OAUClock-OAUClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F7DB79B67DD51DAC4A771B61C8A4D9 /* Debug */,
+				F1C9FB8EC249A569F4D6377B2CEB43AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58EE4A948258721A133C65FA2825238 /* Build configuration list for PBXNativeTarget "Pods-OAUClock_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC8D345735EE21E1E66B66708B8504E /* Debug */,
+				AF5293516054A0C50819F8894A123E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48CE8E7613AA982626C135BE00ED2B5 /* Build configuration list for PBXNativeTarget "OAUClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C9F052B2312E5428D59C6C3DFCA3E9 /* Debug */,
+				0C04E502845E54BBC5D40DECA347A21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

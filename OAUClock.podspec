@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = "OAUClock"
   s.version          = "0.1.0"
-  s.summary          = "A short description of OAUClock."
+  s.summary          = "An easy clock view for iOS."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
+  s.description      = <<-DESC "An easy storyboard-based clock view for iOS."
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/OAUClock"
+  s.homepage         = "https://github.com/cyonix/OAUClock"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Austin Ugbeme" => "hello@waado.co" }
