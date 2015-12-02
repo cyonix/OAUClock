@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "OAUClock"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "An easy clock view for iOS."
 
 # This description is used to generate tags and improve search results.
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/cyonix/OAUClock"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Austin Ugbeme" => "hello@waado.co" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/OAUClock.git", :tag => s.version.to_s }
+  s.author           = { "Austin Ugbeme" => "austinu@me.com" }
+  s.source           = { :git => "https://github.com/cyonix/OAUClock.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
