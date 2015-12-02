@@ -16,6 +16,13 @@ static inline CGAffineTransform CGPointRotateAboutPivotTransform(CGPoint p, CGPo
 static inline CGFloat DegreesToRadians(CGFloat degrees);
 static inline CGPoint CGPointRotateAboutPivot(CGPoint p, CGPoint pivot, CGFloat degrees);
 
+@interface NSDate (HoursMinsSecs)
++ (NSDateFormatter *)defaultDateFormatter;
+- (NSInteger)hours;
+- (NSInteger)minutes;
+- (NSInteger)seconds;
+@end
+
 @interface OAUClock ()
 @property (nonatomic, strong) UILabel *meridiesLabel;
 @property (nonatomic, strong) NSTimer *timer;
@@ -69,6 +76,11 @@ static inline CGPoint CGPointRotateAboutPivot(CGPoint p, CGPoint pivot, CGFloat 
     return layer;
 }
 
++ (NSDate *)dateFromString:(NSString *)dateString
+{
+    return [[NSDate defaultDateFormatter] dateFromString:dateString];
+}
+
 - (void)addShadowWithRadius:(CGFloat)radius
 {
     NSAssert1(radius > 1.f, @"Invalid provided radius: %f", radius);
@@ -89,7 +101,7 @@ static inline CGPoint CGPointRotateAboutPivot(CGPoint p, CGPoint pivot, CGFloat 
     CGFloat midY = CGRectGetMidY(self.bounds);
     CGPoint center = CGPointMake(midX, midY);
 
-    CGFloat hrDegrees = self.hour != 12 ? 30.f * ((CGFloat)self.hour + ((CGFloat)self.minute / 60.f)) : 0.f;
+    CGFloat hrDegrees = self.date.hours != 12 ? 30.f * ((CGFloat)self.date.hours + ((CGFloat)self.date.minutes / 60.f)) : 0.f;
     CGPoint startPt = CGPointMake(midX, LONG_GRADUATION_LENGTH + NUMBER_RECT_WIDTH + 30.f);
     CGPoint endPt = CGPointMake(midX, midY + 5.f);
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(startPt.x, startPt.y, 2.f, endPt.y - startPt.y)];
@@ -103,7 +115,7 @@ static inline CGPoint CGPointRotateAboutPivot(CGPoint p, CGPoint pivot, CGFloat 
     CGFloat midY = CGRectGetMidY(self.bounds);
     CGPoint center = CGPointMake(midX, midY);
 
-    CGFloat minDegrees = 6.f * self.minute;
+    CGFloat minDegrees = 6.f * self.date.minutes;
     CGPoint startPt = CGPointMake(midX, LONG_GRADUATION_LENGTH + NUMBER_RECT_WIDTH + 5.f);
     CGPoint endPt = CGPointMake(midX, midY + 5.f);
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(startPt.x, startPt.y, 2.f, endPt.y - startPt.y)];
@@ -117,7 +129,7 @@ static inline CGPoint CGPointRotateAboutPivot(CGPoint p, CGPoint pivot, CGFloat 
     CGFloat midY = CGRectGetMidY(self.bounds);
     CGPoint center = CGPointMake(midX, midY);
 
-    CGFloat secsDegrees = 6.f * self.seconds;
+    CGFloat secsDegrees = 6.f * self.date.seconds;
     CGPoint startPt = CGPointMake(midX, LONG_GRADUATION_LENGTH + NUMBER_RECT_WIDTH + 5.f);
     CGPoint endPt = CGPointMake(midX, midY + 7.f);
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(startPt.x, startPt.y, 1.f, endPt.y - startPt.y)];
@@ -125,31 +137,12 @@ static inline CGPoint CGPointRotateAboutPivot(CGPoint p, CGPoint pivot, CGFloat 
     return path;
 }
 
-- (void)updateCurrentTime
-{
-    NSDate *date = [NSDate date];
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    dateFormatter.dateFormat = @"h:mm:ss";
-    NSString *dateString = [dateFormatter stringFromDate:date];
-    NSArray *comps = [dateString componentsSeparatedByString:@":"];
-    
-    NSAssert1(comps.count == 3, @"3 components expected. Found %d", (int)comps.count);
-    
-    self.hour = [comps[0] integerValue];
-    self.minute = [comps[1] integerValue];
-    self.seconds = [comps[2] integerValue];
-    
-    //    NSLog(@"Current time is: %d:%d:%2d %@", (int)self.hour, (int)self.minute, (int)self.seconds, self.isAM ? @"AM" : @"PM");
-}
-
 - (void)performCommonInit:(CGRect)rect
 {
     self.backgroundColor = [UIColor clearColor];
     
     // Default time is 10:10:30 AM
-    self.hour = 10;
-    self.minute = 10;
-    self.seconds = 30;
+    self.date = [OAUClock dateFromString:@"10:10:30"];
     
     self.showMeridies = YES;
     self.meridiesColor = [OAUClock colorFromRGBHex:0xE9967A withAlpha:1.f];
@@ -298,11 +291,45 @@ static const CGFloat NUMBER_RECT_WIDTH = 25.f;
 - (void)updateTime:(id)sender
 {
     if (self.realtime) {
-        [self updateCurrentTime];
+        self.date = [NSDate date];
         self.hourHandLayer.path = [self bezierPathForHourHandWithWidth:HOUR_HAND_WIDTH].CGPath;
         self.minuteHandLayer.path = [self bezierPathForMinuteHandWithWidth:MIN_HAND_WIDTH].CGPath;
         self.secondsHandLayer.path = [self bezierPathForSecondHandWithWidth:SEC_HAND_WIDTH].CGPath;
     }
+}
+@end
+
+@implementation NSDate (HoursMinsSecs)
++ (NSDateFormatter *)defaultDateFormatter
+{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"h:mm:ss";
+    return dateFormatter;
+}
+
+- (NSArray *)dateComponents
+{
+    NSDateFormatter *dateFormatter = [NSDate defaultDateFormatter];
+    NSString *dateString = [dateFormatter stringFromDate:self];
+    NSArray *comps = [dateString componentsSeparatedByString:@":"];
+    
+    NSAssert1(comps.count == 3, @"3 components expected. Found %d", (int)comps.count);
+    return comps;
+}
+
+- (NSInteger)hours
+{
+    return [[self dateComponents][0] integerValue];
+}
+
+- (NSInteger)minutes
+{
+    return [[self dateComponents][1] integerValue];
+}
+
+- (NSInteger)seconds
+{
+    return [[self dateComponents][2] integerValue];
 }
 @end
 

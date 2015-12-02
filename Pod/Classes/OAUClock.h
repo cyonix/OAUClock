@@ -6,18 +6,13 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
+@import UIKit;
 
 @interface OAUClock : UIView
 
-// Set/Get current hour
-@property (nonatomic) NSInteger hour;
-
-// Set/Get current minute
-@property (nonatomic) NSInteger minute;
-
-// Set/Get current seconds
-@property (nonatomic) NSInteger seconds;
+// Set/Get current time as a `date`
+@property (nonatomic, strong) NSDate *date;
 
 // AM/PM (ante/post meridien)
 @property (nonatomic) BOOL showMeridies;
@@ -41,5 +36,8 @@
 // Border width and color
 @property (nonatomic) CGFloat borderWidth;
 @property (nonatomic) UIColor *borderColor;
+
+// Convenient method to construct a date from a string (in hh:mm:ss format)
++ (NSDate *)dateFromString:(NSString *)dateString;
 
 @end

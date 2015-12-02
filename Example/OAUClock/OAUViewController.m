@@ -21,9 +21,7 @@
     [super viewDidLoad];
 //    self.clock.showMeridies = YES;
 //    self.clock.realtime = NO;
-//    self.clock.hour = 10;
-//    self.clock.minute = 10;
-//    self.clock.seconds = 30;
+//    self.clock.date = [OAUClock dateFromString:@"12:45:10"];
 //    self.clock.showGraduations = NO;
 //    self.clock.showMeridies = YES;
 //    self.clock.showNumbers = NO;
